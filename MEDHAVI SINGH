@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
+</head>
+<body>
+    <a-scene>
+        <a-assets>
+            <img id="Image1" src="Asset/TexturesCom_Wall_Stone3_header.jpg">
+            <img id="Image2" src="Asset/R.jpeg">
+            <a-asset-item id="Chair" src="Asset/Chair/scene.gltf"></a-asset-item>
+           <a-asset-item id="chair3" src="Asset/chair3/scene.gltf"></a-asset-item>
+           <a-asset-item id="table" src="Asset/table/scene.gltf"></a-asset-item>
+           <a-asset-item id="candle" src="Asset/candle/scene.gltf"></a-asset-item>
+           <a-asset-item id="plate" src="Asset/plates/scene.gltf"></a-asset-item>
+           <a-asset-item id="cutlery" src="Asset/cutlery/scene.gltf"></a-asset-item>
+           <a-asset-item id="glass" src="Asset/glass/scene.gltf"></a-assitem>
+
+           
+           
+           
+           
+
+
+
+
+        </a-assets>
+        <a-box position="11.921 0.638 6.401" scale ="29.880 0.070 40.060" material="src:#Image1" height="2" width="2"></a-box>
+        <a-box position="12.088 10.705  26.412" scale ="30 10 0.1" material="src:#Image2" height="2" width="2"></a-box>
+        <a-box position="11.913 10.508 -13.725"  scale ="30 10 0.1 "  material="src:#Image2" height="2" width="2"></a-box>
+        <a-box position="-17.887 10.595 6.455"  scale ="20 10 0.2  " rotation="0 90 0" material="src:#Image2" height="2" width="2"></a-box>
+        <a-box position="12.052 20.456 6.625"  scale ="29.740 20.1200 0.200 " rotation="90 90 90" color="black" height="2" width="2"></a-box>
+
+
+        <a-entity gltf-model="#Chair" position="-8.147 2.677 4.734 " rotation="0 90 0" scale="0.080 0.070 0.070"></a-entity>
+        
+        <a-entity gltf-model="#chair3" position="4.930  3.734 -7.503" scale="0.720 0.620 0.600"></a-entity>
+        <a-entity gltf-model="#chair3" position="14.230 3.311  -8.448" scale="0.720 0.620 0.600"></a-entity>
+        <a-entity gltf-model="#chair3" position="27.701 3.314 -8.448" scale="0.720 0.620 0.600"></a-entity>
+        <a-entity gltf-model="#chair3" position="4.979 3.577  15.700" rotation="0 180 0" scale="0.720 0.620 0.600"></a-entity>
+        <a-entity gltf-model="#chair3" position="13.881 3.529 15.497" rotation="0 180 0" scale="0.720 0.620 0.600"></a-entity>
+        <a-entity gltf-model="#chair3" position="26.373 3.480  14.921"rotation="0 180 0" scale="0.720 0.620 0.600"></a-entity>
+        
+        <a-entity gltf-model="#table" position="12.898 2.585 3.715"rotation="0 0 0" scale="-0.120 0.030 -0.060"></a-entity>
+
+        <a-entity gltf-model="#candle" position="-11.877 11.413 20.446 " rotation="0 0 0" scale="4.470 19.770 3.820  "></a-entity>
+        <a-entity gltf-model="#candle" position="8.822 11.413 20.446 " rotation="0 0 0" scale="4.470 19.770 3.820  "></a-entity>
+        <a-entity gltf-model="#candle" position="25.305 11.413 20.446" rotation="0 0 0" scale="4.470 19.770 3.820 "></a-entity>
+        <a-entity gltf-model="#candle" position="36.363 11.413 20.446 " rotation="0 0 0" scale="4.470 19.770 3.820  "></a-entity>
+        <a-entity gltf-model="#candle" position="35.179 11.413 -10.098 " rotation="0 0 0" scale="4.470 19.770 3.820 "></a-entity>
+        <a-entity gltf-model="#candle" position="8.231  11.413 -10.098 " rotation="0 0 0" scale="4.470 19.770 3.820  "></a-entity>
+        <a-entity gltf-model="#candle" position="-11.877 11.413 -10.098 " rotation="0 0 0" scale="4.470 19.770 3.820  "></a-entity>
+        <a-entity gltf-model="#candle" position="25.441 11.413 -10.098 " rotation="0 0 0" scale="4.470 19.770 3.820  "></a-entity>
+
+        <a-entity gltf-model="#plate" position="3.040 5.854 5.971" rotation="90 90  0" scale="0.060 0.050 -0.070"></a-entity>
+        <a-entity gltf-model="#plate" position="12.003 5.944 6.198 " rotation="90 90  0" scale="0.060 0.050 -0.070"></a-entity>
+        <a-entity gltf-model="#plate" position="24.588 5.864 5.739" rotation="90 90  0" scale="0.060 0.050 -0.070"></a-entity>
+        <a-entity gltf-model="#plate" position="24.736 5.842 0.109" rotation="90 90  0" scale="0.060 0.050 -0.070"></a-entity>
+        <a-entity gltf-model="#plate" position="11.841 5.858 0.214 " rotation="90 90  0" scale="0.060 0.050 -0.070"></a-entity>
+        <a-entity gltf-model="#plate" position="2.950 5.842 0.087 " rotation="90 90  0" scale="0.060 0.050 -0.070"></a-entity>
+        <a-entity gltf-model="#plate" position="-4.167 5.863 3.723 " rotation="90 90  0" scale="0.060 0.050 -0.070"></a-entity>
+        
+        <a-entity gltf-model="#cutlery" position="1.409 5.851 -1.120 " rotation="90 0  0" scale="0.620 0.570 0.100"></a-entity>
+        <a-entity gltf-model="#cutlery" position="23.280 5.851 -1.120" rotation="90 0  0" scale="0.620 0.570 0.100"></a-entity>
+        <a-entity gltf-model="#cutlery" position=" 10.064 5.851 -1.120" rotation="90 0  0" scale="0.620 0.570 0.100"></a-entity>
+        <a-entity gltf-model="#cutlery" position="6.253 5.851 4.894 " rotation="90 0  0" scale="0.620 0.570 0.100"></a-entity>
+        <a-entity gltf-model="#cutlery" position=" 15.481 5.851 7.472" rotation="90 180  0" scale="0.620 0.570 0.100"></a-entity>
+        <a-entity gltf-model="#cutlery" position="28.127 5.851 7.590 " rotation="90 180  0" scale="0.620 0.570 0.100"></a-entity>
+        <a-entity gltf-model="#cutlery" position=" -4.412 5.851 7.004" rotation="90 90  0" scale="0.620 0.570 0.100"></a-entity>
+        
+
+
+
+
+        
+       
+
+
+        
+      </a-scene>
+    
+</body>
+</html>
